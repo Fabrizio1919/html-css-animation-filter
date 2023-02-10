@@ -119,7 +119,26 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation: move 3s linear reverse;
 }
+@keyframes :  {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(350deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.ex-11-icon:hover{
+    animation: move 2s linear;
+    0% {
+        transform: rotate(4turn);
+    }
+}
+
 
 
 
